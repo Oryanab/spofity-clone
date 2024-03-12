@@ -30,7 +30,7 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
       <div className="flex w-full flex-col items-start gap-y-1 pt-4">
         <p className="w-full truncate font-semibold">{data.title}</p>
         <p className="w-full truncate pb-4 text-sm text-neutral-400">
-          {data.author}
+          By {data.author}
         </p>
       </div>
       <div className="absolute bottom-24 right-5">
